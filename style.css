@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#bg{
+    height: 100%;
+    width: 100%;
+    background-image: url(githubprofile.avif);
+    background-size: cover;
+}
+h1{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    font-family: buttermilk;
+    font-weight: 100;
+    font-size: 100px;
+    color:red;
+    mix-blend-mode: difference;
+}
+
+h2{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    font-family: buttermilk;
+    font-weight: 100;
+    font-size: 30px;
+    color:yellow;
+    mix-blend-mode: difference;
+}
